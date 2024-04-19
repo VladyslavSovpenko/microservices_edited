@@ -1,8 +1,6 @@
 package com.eazybytes.accounts.mapper;
 
-import com.eazybytes.accounts.dto.AccountsDto;
 import com.eazybytes.accounts.dto.CustomerDto;
-import com.eazybytes.accounts.entities.Accounts;
 import com.eazybytes.accounts.entities.Customer;
 import org.mapstruct.*;
 

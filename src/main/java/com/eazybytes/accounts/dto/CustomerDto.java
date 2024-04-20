@@ -1,5 +1,6 @@
 package com.eazybytes.accounts.dto;
 
+import io.swagger.v3.oas.annotations.media.Schema;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.Pattern;
@@ -41,5 +42,5 @@ public class CustomerDto implements Serializable {
     @Schema(
             description = "Account details of the Customer"
     )
-    private AccountsDto accountsDto;
+    private AccountDto accountDto;
 }

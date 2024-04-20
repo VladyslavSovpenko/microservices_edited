@@ -4,7 +4,7 @@ import com.eazybytes.accounts.dto.AccountDto;
 import com.eazybytes.accounts.entities.Account;
 import org.mapstruct.*;
 
-@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.JAKARTA_CDI)
+@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
 public interface AccountMapper {
 
     Account toEntity(AccountDto accountsDto);

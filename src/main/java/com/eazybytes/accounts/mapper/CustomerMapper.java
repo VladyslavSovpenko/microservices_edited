@@ -4,7 +4,7 @@ import com.eazybytes.accounts.dto.CustomerDto;
 import com.eazybytes.accounts.entities.Customer;
 import org.mapstruct.*;
 
-@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.JAKARTA_CDI)
+@Mapper(unmappedTargetPolicy = ReportingPolicy.IGNORE, componentModel = MappingConstants.ComponentModel.SPRING)
 public interface CustomerMapper {
     Customer toEntity(CustomerDto customerDto);
     CustomerDto toDto(Customer customer);
